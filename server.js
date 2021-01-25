@@ -32,7 +32,7 @@ app.get('/buy' , ( req , res ) => {
 	},
 	"transactions": [{
 		"amount": {
-			"total": 39.00,
+			"total": 499.00,
 			"currency": "USD"
 		},
 		"description": " a book on mean stack "
