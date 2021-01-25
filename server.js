@@ -27,8 +27,8 @@ app.get('/buy' , ( req , res ) => {
 		"payment_method": "paypal"
 	},
 	"redirect_urls": {
-		"return_url": "https://kokhoupay.herokuapp.com/success",
-		"cancel_url": "https://kokhoupay.herokuapp.com/err"
+		"return_url": "https://paypal-testappckh.herokuapp.com/success",
+		"cancel_url": "https://paypal-testappckh.herokuapp.com/err"
 	},
 	"transactions": [{
 		"amount": {
