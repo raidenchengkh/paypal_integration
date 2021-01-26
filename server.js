@@ -6,8 +6,8 @@ var paypal = require('paypal-rest-sdk');
 
 paypal.configure({
   'mode': 'sandbox', //sandbox or live 
-  'client_id': 'AetqMUApKjiGgwfdrG3jjOgIO3qEi7k44seRwj_OepDxJmh7wBYwzovh7xMKyt1ihSxFnntFMrKWeAse',
-  'client_secret': 'EHpt67LBZboiQBZJhWs2lKj9qHbzdNMKSw-oOmyKoa-3edLU8Rch-tGbpBJIUBRPxyJY_fIkSY-0NM14'
+  'client_id': process.env.CLIENT_ID,
+  'client_secret': process.env.CLIENT_SECRET
 });
 
 // set public directory to serve static files 
